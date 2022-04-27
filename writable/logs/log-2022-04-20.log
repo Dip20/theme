@@ -151,3 +151,13 @@ CRITICAL - 2022-04-20 01:30:29 --> Table 'ci4.tbl_user' doesn't exist
 #9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
 #11 {main}
+CRITICAL - 2022-04-20 23:11:47 --> Invalid file: home_page.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home_page.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('home_page', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(10): view('home_page')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}

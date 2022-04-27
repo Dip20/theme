@@ -1,0 +1,602 @@
+CRITICAL - 2022-04-24 22:54:38 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 22:55:20 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(13): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-24 22:56:50 --> Undefined variable: id
+#0 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 22, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#6 {main}
+CRITICAL - 2022-04-24 22:57:11 --> Undefined property: App\Controllers\Home::$gmodel
+#0 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\programFiles...', 27, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#6 {main}
+ERROR - 2022-04-24 22:58:04 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 22:58:04 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-24 23:02:00 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:02:00 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:02:45 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:06:00 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:06:05 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:15:24 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:15:45 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:15:49 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:16:04 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(15): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-24 23:16:17 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(35): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:16:24 --> Invalid argument supplied for foreach()
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(41): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-24 23:16:47 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 33, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#6 {main}
+ERROR - 2022-04-24 23:23:16 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:23:16 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:24:47 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:27:43 --> Undefined variable: tax_id
+#0 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 31, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#6 {main}
+CRITICAL - 2022-04-24 23:27:50 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:30:40 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(43): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-24 23:31:35 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:31:40 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:33:19 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:33:19 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:33:27 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:33:41 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:34:18 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(31): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:34:23 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:34:23 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-24 23:35:19 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:35:19 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:35:33 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(37): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:35:43 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(37): CodeIgniter\Model->__call('get_saleInv_id', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:36:22 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(16): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-24 23:36:38 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:37:52 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:37:52 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2410): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#9 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#12 {main}
+CRITICAL - 2022-04-24 23:37:55 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:37:57 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:37:58 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:38:00 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:38:00 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:39:07 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:39:07 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(29): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-24 23:40:18 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:40:18 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(29): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:41:02 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:41:58 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:41:58 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(29): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:42:24 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:44:14 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(32): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:45:12 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(13): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+ERROR - 2022-04-24 23:50:12 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:50:12 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:50:47 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(41): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:51:15 --> Undefined variable: db
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 24, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-24 23:51:21 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(41): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-24 23:51:37 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-24 23:51:37 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-24 23:53:18 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(41): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:53:59 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): CodeIgniter\Model->__call('get_data_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:54:24 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): CodeIgniter\Model->__call('get_data_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-24 23:57:03 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): CodeIgniter\Model->__call('get_data_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}

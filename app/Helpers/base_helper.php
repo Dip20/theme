@@ -42,7 +42,7 @@ function generateRandomString($length = 5) {
 
 function gl_list($abc,$test = array()){
         $db = \Config\Database::connect();
-        $db->setDatabase(session('DataSource')); 
+        $db->setDatabase("jen2022f1uo"); 
         $builder = $db->table('gl_group');
         $builder = $builder->select('GROUP_CONCAT(id) as ids');
         $builder->whereIn('parent',$abc);
@@ -124,10 +124,13 @@ function to_time_ago( $time ) {
 function getManagedData($tablename, $dt_col, $dt_search, $where, $dt_order = array()){ //print_r($aColumns);exit;
     $db = \Config\Database::connect();
     
-    if(session('DataSource'))
-    {
-        $db->setDatabase(session('DataSource'));
-    }
+    // if(session('DataSource'))
+    // {
+    //     $db->setDatabase(session('DataSource'));
+    // }
+
+    $db->setDatabase("jen2022f1uo");
+
     $request = \Config\Services::request();
     $rResult = array();
     //$sQuery = "SELECT COUNT('*') AS row_count FROM " . $tablename;

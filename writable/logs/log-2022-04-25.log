@@ -1,0 +1,1061 @@
+ERROR - 2022-04-25 00:00:54 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-25 00:00:54 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 00:01:17 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-25 00:01:17 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 00:03:04 --> Table 'manifest_erp.gl_group' doesn't exist
+CRITICAL - 2022-04-25 00:03:04 --> Table 'manifest_erp.gl_group' doesn't exist
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\GeneralModel.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(40): App\Models\GeneralModel->get_data_table('gl_group', Array, 'id')
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-25 00:03:36 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(46): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-25 00:04:01 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(41): CodeIgniter\Model->__call('get_array_table', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:04:07 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(46): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-25 00:05:01 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(46): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-25 00:05:11 --> Undefined variable: tax
+#0 D:\programFiles\xampp\htdocs\theme\app\Views\add_sales_invoice.php(568): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\programFiles...', 568, Array)
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include('D:\\programFiles...')
+#2 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('add_sales_invoi...', Array, true)
+#4 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(46): view('add_sales_invoi...', Array)
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#10 {main}
+CRITICAL - 2022-04-25 00:10:24 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:10:25 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:10:33 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:10:39 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:12:48 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:14:28 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:14:31 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:14:35 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2308
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2308): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(834): App\Models\MasterModel->search_vehicle_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_vehicle')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 00:26:27 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 00:29:40 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:11:04 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(36): CodeIgniter\Model->__call('get_sales_invoi...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice('3')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:18:28 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2382): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:18:32 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2382): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:21:37 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2382): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:21:40 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): CodeIgniter\Model->__call('insert_edit_sal...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:21:46 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): CodeIgniter\Model->__call('insert_edit_sal...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:22:53 --> Undefined index: account
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(822): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\programFiles...', 822, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 01:23:23 --> A non-numeric value encountered
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(745): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\programFiles...', 745, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 01:25:05 --> Undefined index: account
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(822): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\programFiles...', 822, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 01:25:11 --> Undefined index: account
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(822): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\programFiles...', 822, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(30): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 01:25:22 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:25:47 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:25:53 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:25:55 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:34:20 --> Undefined index: account
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(822): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\programFiles...', 822, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(22): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 01:36:02 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:39:51 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:39:52 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:41:22 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:41:23 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:41:41 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(872): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:47:19 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:47:20 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:47:21 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:47:22 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2412): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(846): App\Models\MasterModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:54:25 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:55:59 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(997): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:57:13 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(997): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:58:06 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:58:20 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(997): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:58:21 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(997): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 01:58:22 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(997): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:00:25 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:04:29 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:04:42 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:06:40 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:06:46 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:06:59 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(206): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:07:15 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:07:18 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:07:37 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:07:39 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:08:30 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php on line 45
+#0 D:\programFiles\xampp\htdocs\theme\app\Helpers\base_helper.php(45): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(998): gl_list(Array)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(212): App\Models\UserModel->search_sun_debtor(Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_sun_debt...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+ERROR - 2022-04-25 02:12:14 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:12:14 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(954): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(25): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-25 02:16:09 --> A non-numeric value encountered
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(745): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\programFiles...', 745, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(25): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+ERROR - 2022-04-25 02:22:24 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:22:24 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(23): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 02:22:33 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:22:33 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(23): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 02:22:57 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:22:57 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(24): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 02:23:06 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:23:06 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(24): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 02:23:13 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:23:13 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(24): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+ERROR - 2022-04-25 02:24:06 --> Column 'created_by' cannot be null
+CRITICAL - 2022-04-25 02:24:06 --> Column 'created_by' cannot be null
+#0 D:\programFiles\xampp\htdocs\theme\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\programFiles\xampp\htdocs\theme\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\programFiles\xampp\htdocs\theme\system\Database\BaseBuilder.php(1648): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', NULL, false)
+#4 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(977): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#5 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(24): App\Models\UserModel->insert_edit_salesinvoice(Array)
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_sales_invoice()
+#7 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#11 {main}
+CRITICAL - 2022-04-25 02:27:15 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:35:08 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 02:41:49 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 02:42:06 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 03:56:11 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:56:32 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:58:38 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:58:39 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:58:53 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:58:59 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 571
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(571): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(808): App\Models\MasterModel->search_sale_delivery(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('search_sale_del...')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 03:59:01 --> Invalid file: master/create_vehicle.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/create_v...')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('master/create_v...', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(303): view('master/create_v...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->add_vehicle()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:59:03 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:59:04 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:59:07 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 03:59:57 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 04:00:14 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 04:00:20 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 04:00:21 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 04:00:23 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 04:01:49 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:01:51 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:01:52 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:01:53 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:01:53 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:01:59 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:02:01 --> Invalid file: auth/login.php
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Auth.php(26): view('auth/login', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Auth->index()
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 04:41:23 --> Argument 1 passed to CodeIgniter\Database\MySQLi\Connection::setDatabase() must be of the type string, null given, called in D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php on line 2386
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\MasterModel.php(2386): CodeIgniter\Database\MySQLi\Connection->setDatabase(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Master.php(601): App\Models\MasterModel->get_round_off_data(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Master->Getdata('round_off')
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 05:08:47 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 05:08:48 --> You must set the database table to be used with your query.
+#0 D:\programFiles\xampp\htdocs\theme\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\programFiles\xampp\htdocs\theme\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(205): CodeIgniter\Model->__call('search_salevouc...', Array)
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->Getdata('search_salevouc...')
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#8 {main}
+CRITICAL - 2022-04-25 05:15:51 --> Call to undefined function random_string()
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include()
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('sale', Array, true)
+#3 D:\programFiles\xampp\htdocs\theme\app\Controllers\SaleController.php(16): view('sale', Array)
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#9 {main}
+CRITICAL - 2022-04-25 05:16:21 --> Call to undefined function elper()
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include()
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('sale', Array, true)
+#3 D:\programFiles\xampp\htdocs\theme\app\Controllers\SaleController.php(16): view('sale', Array)
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#9 {main}
+CRITICAL - 2022-04-25 05:27:44 --> Undefined index: code
+#0 D:\programFiles\xampp\htdocs\theme\app\Models\UserModel.php(173): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\programFiles...', 173, Array)
+#1 D:\programFiles\xampp\htdocs\theme\app\Controllers\Home.php(101): App\Models\UserModel->insert_edit_uom(Array)
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\Home->add_uom()
+#3 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#7 {main}
+CRITICAL - 2022-04-25 06:07:55 --> Class 'App\Models\SaleModel' not found
+#0 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#1 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#2 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#5 {main}
+CRITICAL - 2022-04-25 06:10:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include()
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('sale', Array, true)
+#3 D:\programFiles\xampp\htdocs\theme\app\Controllers\SaleController.php(21): view('sale', Array)
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#9 {main}

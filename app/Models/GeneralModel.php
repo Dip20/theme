@@ -22,6 +22,8 @@ class GeneralModel extends Model {
 
     public function get_data_table($table = '', $where = array(), $select = '') {
         $db = $this->db;
+        $db->setDatabase("jen2022f1uo");
+
         $builder = $db->table($table);
         if ($select == '')
             $select = '*';
@@ -34,6 +36,46 @@ class GeneralModel extends Model {
         } else {
             $result = array();
         }
+        return $result;
+    }
+
+    public function get_array_table($table = '', $where = array(), $select = '') {
+         
+        $db = $this->db;
+        $db->setDatabase("jen2022f1uo");
+        $builder = $db->table($table);
+        if ($select == '')
+            $select = '*';
+        $query = $builder->select($select)->where($where)->get();
+        $getdata = $query->getResultArray();
+        // echo $db->getLastQuery();exit;
+
+        $result = array();
+        if (!empty($getdata)) {
+            $result = $getdata;
+        } 
+        return $result;
+    }
+
+    public function get_saleInv_id($table = '')
+    {
+        $db = $this->db;
+        $db->setDatabase("jen2022f1uo");
+        $builder = $db->table($table);
+        $select = 'MAX(invoice_no) as max_id';
+        $builder->select($select);
+        if($table == 'sales_ACinvoice'){
+            $builder->where('v_type','general');
+        }
+        $builder->where('is_delete','0');
+        $query = $builder->get();
+        $getdata = $query->getRow();
+        if (!empty($getdata)) {
+            $result = $getdata->max_id;
+        } else {
+            $result = '';
+        }
+        
         return $result;
     }
 
@@ -67,6 +109,8 @@ class GeneralModel extends Model {
         }
         return $return;
     }
+
+
 
 }
 

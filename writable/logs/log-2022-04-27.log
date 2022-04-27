@@ -1,0 +1,22 @@
+CRITICAL - 2022-04-27 00:36:39 --> Object of class stdClass could not be converted to string
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include()
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('sale', Array, true)
+#3 D:\programFiles\xampp\htdocs\theme\app\Controllers\SaleController.php(29): view('sale', Array)
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#9 {main}
+CRITICAL - 2022-04-27 00:36:54 --> Object of class stdClass could not be converted to string
+#0 D:\programFiles\xampp\htdocs\theme\system\View\View.php(210): include()
+#1 D:\programFiles\xampp\htdocs\theme\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\programFiles\xampp\htdocs\theme\system\Common.php(1089): CodeIgniter\View\View->render('sale', Array, true)
+#3 D:\programFiles\xampp\htdocs\theme\app\Controllers\SaleController.php(29): view('sale', Array)
+#4 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(832): App\Controllers\SaleController->index()
+#5 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SaleController))
+#6 D:\programFiles\xampp\htdocs\theme\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\programFiles\xampp\htdocs\theme\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\programFiles\xampp\htdocs\theme\system\Commands\Server\rewrite.php(43): require_once('D:\\programFiles...')
+#9 {main}
